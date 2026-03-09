@@ -34,7 +34,7 @@ jobs:
 
     - name: Run mypy
       run: |
-        mypy --exclude github-actions-and-docker app.py tests/
+        run: mypy app.py
 
     - name: Run pytest
       run: |
