@@ -34,7 +34,7 @@ jobs:
 
     - name: Run mypy
       run: |
-        mypy app.py tests/
+        mypy --namespace-packages app.py tests/
 
     - name: Run pytest
       run: |
